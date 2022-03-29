@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  <title>Task List</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s4">
+          <div class="card-action">
+            <h5 id="shopping-cart">Shopping Cart</h5>
+            <ul class="collection">
+              <li class="collection-item">
+                Product 1
+                <a href="#">
+                  <i class="fa fa-heart"></i>
+                </a>
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li> 
+              <li class="collection-item">
+                Product 2
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li> 
+              <li class="collection-item">
+                Product 3
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+              <li class="collection-item">
+                Product 4
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+              <li class="collection-item">
+                Product 5
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#" class="delete-item secondary-content">
+                  <i class="fa fa-remove"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="clear-tasks btn black" href="#">Clear Products</a>
+          </div>
+        </div>
+      <div class="col s3">
+          <div class="card-action">
+            <h5 id="quantities">Quantities</h5>
+            <ul class="collection">
+              <li class="collection-item">
+                <span>0</span>
+                <a href="#" class="add-one secondary-content">
+                    <i class="material-icons">add</i>
+                </a>
+                <a href="#" class="sub-one secondary-content">
+                    <i class="material-icons">remove</i>
+                </a>
+              </li> 
+              <li class="collection-item">
+                <span>0</span>
+                <a href="#" class="add-one secondary-content">
+                    <i class="material-icons">add</i>
+                </a>
+                <a href="#" class="sub-one secondary-content">
+                    <i class="material-icons">remove</i>
+                </a>
+              </li> 
+              <li class="collection-item">
+                <span>0</span>
+                <a href="#" class="add-one secondary-content">
+                    <i class="material-icons">add</i>
+                </a>
+                <a href="#" class="sub-one secondary-content">
+                    <i class="material-icons">remove</i>
+                </a>
+              </li>
+              <li class="collection-item">
+                <span>0</span>
+                <a href="#" class="add-one secondary-content">
+                    <i class="material-icons">add</i>
+                </a>
+                <a href="#" class="sub-one secondary-content">
+                    <i class="material-icons">remove</i>
+                </a>
+              </li>
+              <li class="collection-item">
+                <span>0</span>
+                <a href="#" class="add-one secondary-content">
+                    <i class="material-icons">add</i>
+                </a>
+                <a href="#" class="sub-one secondary-content">
+                    <i class="material-icons">remove</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div class="col s2">
+          <div class="card-action">
+            <h5 id="unit-price">Unit Price</h5>
+            <ul class="collection">
+              <li class="collection-item">
+                <span>100</span>
+              </li> 
+              <li class="collection-item">
+                <span>210</span>
+              </li> 
+              <li class="collection-item">
+                <span>340</span>
+              </li>
+              <li class="collection-item">
+                <span>420</span>
+              </li>
+              <li class="collection-item">
+                <span>520</span>
+              </li>
+              <li class="collection-item">
+                <span>Total</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div class="col s2">
+          <div class="card-action">
+            <h5 id="total-price">Total Price</h5>
+            <ul class="collection">
+              <li class="collection-item">
+                0
+             </li> 
+              <li class="collection-item">
+                0
+             </li> 
+              <li class="collection-item">
+                0
+             </li>
+              <li class="collection-item">
+                0
+             </li>
+              <li class="collection-item">
+                0
+             </li>
+              <li class="collection-item" id="total-slot">
+                0
+             </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
